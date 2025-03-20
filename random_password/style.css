@@ -37,7 +37,7 @@ body {
     padding: 20px;
     background: white;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.6);
 }
 #butt{
     align-self: center;
@@ -68,7 +68,7 @@ label {
     cursor: pointer;
     margin: 5px 0;
     border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    transition: background-color 0.4s, color 0.4s, border-color 0.4s;
 }
 
 /* Change background when the checkbox is checked */

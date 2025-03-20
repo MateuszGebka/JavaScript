@@ -20,4 +20,5 @@ function rollDice(){
     diceResult.textContent = `dices: ${values.join(', ')}`;
     diceImages.innerHTML = images.join('');
 
+    console.log(images);
 }

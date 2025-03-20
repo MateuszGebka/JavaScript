@@ -54,8 +54,12 @@ function genPass(){
     const includeNumbers = document.getElementById("numberCase");
     const includeSymbols = document.getElementById("symbolCase");
 
-    const rand_pass = generatePassword(passwordLength, includeLowerCase.checked, includeUpperCase.checked, includeNumbers.checked, includeSymbols.checked);
-
-    generated.textContent = rand_pass;
-
+    if(passwordLength < 3 || passwordLength > 15){
+        generated.textContent = "The number of digits must be between 3 and 15!";
+    }
+    else{
+        const rand_pass = generatePassword(passwordLength, includeLowerCase.checked, includeUpperCase.checked, includeNumbers.checked, includeSymbols.checked);
+        generated.textContent = rand_pass;
+    }
+        
 }
