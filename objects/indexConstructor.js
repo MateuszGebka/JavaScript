@@ -23,4 +23,5 @@ const drive = document.getElementById("drive");
 
 function driving(){
     console.log(`You are driving ${car1.model} faster!`);
+    drive.textContent = `You are driving ${car1.model} faster!`;
 }
