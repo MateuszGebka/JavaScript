@@ -17,3 +17,10 @@ console.log(car2.make);
 console.log(car2.model);
 console.log(car1.year);
 car2.drive();
+
+
+const drive = document.getElementById("drive");
+
+function driving(){
+    console.log(`You are driving ${car1.model} faster!`);
+}
