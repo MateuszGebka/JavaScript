@@ -29,3 +29,27 @@ console.log(total);
 product1.displayProduct();
 product2.displayProduct();
 product3.displayProduct();
+
+
+
+class MathUtil{
+    static PI = 3;
+
+    static getDiameter(radius){
+        return radius*2;
+    }
+    static getCircumference(radius){
+        return 2 * this.PI * radius;
+    }
+    static getArea(radius){
+        return this.PI * radius ** 2;
+    }
+}
+
+console.log(MathUtil.PI);
+
+console.log(MathUtil.getDiameter(12));
+
+console.log(MathUtil.getCircumference(12));
+
+console.log(MathUtil.getArea(12));
