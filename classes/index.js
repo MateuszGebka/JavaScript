@@ -88,3 +88,17 @@ user2.sayHello();
 user3.sayHello();
 
 User.getUserCount();
+
+const user4 = new User("A");
+const user5 = new User("B");
+const user6 = new User("C");
+
+console.log(User.userCount);
+
+user4.sayHello();
+
+user5.sayHello();
+
+user6.sayHello();
+
+User.getUserCount();
