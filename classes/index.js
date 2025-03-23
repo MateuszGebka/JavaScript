@@ -65,3 +65,10 @@ class User{
         User.userCount++;
     }
 }
+
+const user1 = new User("Adam");
+const user2 = new User("Bartek");
+const user3 = new User("Czesław");
+
+console.log(user1.username);
+console.log(User.userCount);
