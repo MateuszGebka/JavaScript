@@ -64,6 +64,10 @@ class User{
         this.username = username;
         User.userCount++;
     }
+
+    sayHello(){
+        console.log(`Hello, my username is ${this.username}`);
+    }
 }
 
 const user1 = new User("Adam");
@@ -72,3 +76,9 @@ const user3 = new User("Czesław");
 
 console.log(user1.username);
 console.log(User.userCount);
+
+user1.sayHello();
+
+user2.sayHello();
+
+user3.sayHello();
