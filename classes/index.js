@@ -65,6 +65,10 @@ class User{
         User.userCount++;
     }
 
+    static getUserCount(){
+        console.log(`There are ${User.userCount} users`);
+    }
+
     sayHello(){
         console.log(`Hello, my username is ${this.username}`);
     }
@@ -82,3 +86,5 @@ user1.sayHello();
 user2.sayHello();
 
 user3.sayHello();
+
+User.getUserCount();
