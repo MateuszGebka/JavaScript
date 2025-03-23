@@ -24,12 +24,13 @@ const product3 = new Product("Majty", 11112);
 
 const total = product1.calculateTotal(salesTax);
 
+/*
 console.log(total);
 
 product1.displayProduct();
 product2.displayProduct();
 product3.displayProduct();
-
+*/
 
 
 class MathUtil{
@@ -45,6 +46,7 @@ class MathUtil{
         return this.PI * radius ** 2;
     }
 }
+/*
 
 console.log(MathUtil.PI);
 
@@ -53,3 +55,13 @@ console.log(MathUtil.getDiameter(12));
 console.log(MathUtil.getCircumference(12));
 
 console.log(MathUtil.getArea(12));
+*/
+
+class User{
+    static userCount = 0;
+
+    constructor(username){
+        this.username = username;
+        User.userCount++;
+    }
+}
