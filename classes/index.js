@@ -102,3 +102,17 @@ user5.sayHello();
 user6.sayHello();
 
 User.getUserCount();
+
+const user7 = new User("D");
+const user8 = new User("E");
+const user9 = new User("F");
+
+console.log(User.userCount);
+
+user7.sayHello();
+
+user8.sayHello();
+
+user9.sayHello();
+
+User.getUserCount();
