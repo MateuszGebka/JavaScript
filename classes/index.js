@@ -34,7 +34,7 @@ console.log(total);
 product1.displayProduct();
 product2.displayProduct();
 product3.displayProduct();
-*/
+*/   
 
 
 class MathUtil{
@@ -98,6 +98,20 @@ const user5 = new User("B");
 const user6 = new User("C");
 
 console.log(User.userCount);
+
+user4.sayHello();
+
+user5.sayHello();
+
+user6.sayHello();
+
+
+user4.sayHello();
+
+user5.sayHello();
+
+user6.sayHello();
+
 
 user4.sayHello();
 
