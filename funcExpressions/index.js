@@ -27,6 +27,10 @@ setTimeout(function(){
     console.log("3000lol");
 }, 3000);
 
+setTimeout(function(){
+    console.log("5");
+}, 5000);
+
 
 const numbers = [1, 2, 3, 4, 5, 6];
 
