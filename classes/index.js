@@ -22,6 +22,10 @@ const product1 = new Product("Shirt", 12);
 const product2 = new Product("Jeans", 52);
 const product3 = new Product("Majty", 11112);
 
+const product4 = new Product("A", 3332);
+const product5 = new Product("B", 1);
+const product6 = new Product("C", -121);
+
 const total = product1.calculateTotal(salesTax);
 
 /*
