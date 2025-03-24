@@ -11,8 +11,10 @@ const numbers = [1, 2, 3, 4, 5, 6];
 
 const squares = numbers.map( (element) => Math.pow(element, 2));
 const even = numbers.filter( (element) => element % 2 === 0);
+const odd = numbers.filter( (element) => element % 2 === 1);
 const total = numbers.reduce( (accumulator, next) => accumulator += next);
 
 console.log(squares);
 console.log(even);
 console.log(total);
+console.log(odd);
