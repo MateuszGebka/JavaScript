@@ -1,11 +1,19 @@
 class Animal{
     alive = true;
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+    }
 
     eat(){
         console.log(`This ${this.name} is eating`);
     }
     sleep(){
         console.log(`This ${this.name} is sleeping`);
+    }
+
+    move(){
+        console.log(`The ${this.name} moves at a speed of ${speed}`);
     }
 }
 
@@ -24,6 +32,20 @@ class Fish extends Animal{
     
 }
 
+
+// SUPER KEYWORD
+
+class Hawk extends Animal{
+    constructor(name, age, flySpeed){
+        super(name, age);
+        this.flySpeed = flySpeed;
+    }
+
+    fly(){
+        console.log(`This ${this.name} can fly`);
+    }
+}
+
 const rab = new Rabbit;
 const fish = new Fish;
 rab.eat();
@@ -31,3 +53,9 @@ fish.eat();
 
 rab.run();
 fish.swim();
+
+
+const hawk = new Hawk("Adam", 12, 50);
+
+hawk.eat();
+hawk.fly();
