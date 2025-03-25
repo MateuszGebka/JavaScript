@@ -12,7 +12,7 @@ class Animal{
         console.log(`This ${this.name} is sleeping`);
     }
 
-    move(){
+    move(speed){
         console.log(`The ${this.name} moves at a speed of ${speed}`);
     }
 }
@@ -43,6 +43,7 @@ class Hawk extends Animal{
 
     fly(){
         console.log(`This ${this.name} can fly`);
+        super.move(this.flySpeed);
     }
 }
 
