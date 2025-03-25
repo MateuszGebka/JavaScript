@@ -31,6 +31,10 @@ class Rectangle{
     get height(){
         return this._height;
     }
+
+    get area(){
+        return this._height*this._width;
+    }
 }
 
 const rectangle = new Rectangle(23, 43);
@@ -38,3 +42,14 @@ const rectangle = new Rectangle(23, 43);
 console.log(rectangle.width);
 
 console.log(rectangle.height);
+
+rectangle.width = 12;
+rectangle.height = 10;
+
+console.log(rectangle.width);
+
+console.log(rectangle.height);
+
+
+console.log(rectangle.area);
+
