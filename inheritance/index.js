@@ -12,3 +12,12 @@ class Animal{
 class Rabbit extends Animal{
     name = "rabbit";
 }
+
+class Fish extends Animal{
+    name = "fish";
+}
+
+const rab = new Rabbit;
+const fish = new Fish;
+rab.eat();
+fish.eat();
