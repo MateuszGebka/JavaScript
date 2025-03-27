@@ -19,3 +19,4 @@ function rollDice(){
 
     console.log(images);
 }
+
