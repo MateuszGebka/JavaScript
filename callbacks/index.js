@@ -1,4 +1,6 @@
 sum(displayPage, 1, 2);
+sum(displayPage, 41, 42);
+sum(displayPage, 111, -2);
 
 function sum(callback, x, y){
     let result = x + y;
