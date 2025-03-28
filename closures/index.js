@@ -14,7 +14,7 @@ function outer() {
 outer();
 outer();
 outer();
-outer();
+// outer();
 
 
 function increment(){
@@ -40,13 +40,19 @@ counter.adder();
 counter.adder();
 counter.adder();
 counter.adder();
+counter.adder();
+counter.adder();
 
 console.log(`The curr count is: ${counter.getCount()}`)
 
 counter.adder();
 counter.adder();
 counter.adder();
+counter.adder();
+counter.adder();
 
+console.log(`The curr count is: ${counter.getCount()}`)
+console.log(`The curr count is: ${counter.getCount()}`)
 console.log(`The curr count is: ${counter.getCount()}`)
 
 
