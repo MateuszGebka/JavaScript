@@ -86,5 +86,11 @@ game.increaseScore(2);
 game.increaseScore(7);
 game.decreaseScore(1);
 game.decreaseScore(4);
+game.increaseScore(7);
+game.decreaseScore(1);
+game.increaseScore(7);
+game.decreaseScore(1);
 
+console.log(`Final score: ${game.getScore()}pts`);
+console.log(`Final score: ${game.getScore()}pts`);
 console.log(`Final score: ${game.getScore()}pts`);
