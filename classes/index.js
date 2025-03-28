@@ -134,3 +134,20 @@ user8.sayHello();
 user9.sayHello();
 
 User.getUserCount();
+
+const user11 = new User("H");
+
+User.getUserCount();
+
+user7.sayHello();
+
+user8.sayHello();
+
+user9.sayHello();
+
+User.getUserCount();
+
+const user12 = new User("I");
+
+User.getUserCount();
+
