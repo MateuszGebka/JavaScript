@@ -12,6 +12,9 @@ function outer() {
 
 // message = "Goodbye" - nie zadziała, bo message w outer jest prywatne
 outer();
+outer();
+outer();
+outer();
 
 
 function increment(){
