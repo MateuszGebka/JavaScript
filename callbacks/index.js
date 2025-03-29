@@ -12,6 +12,9 @@ function displayConsole(result){
 }
 
 console.log(`Hey`);
+console.log(`Hey`);
+console.log(`Hey`);
+
 
 
 function displayPage(result){
