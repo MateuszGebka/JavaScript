@@ -15,3 +15,12 @@ function displayConsole(result){
 function displayPage(result){
     document.getElementById("myH1").textContent = result;
 }
+
+
+function displayPage(result){
+    document.getElementById("myH1").textContent = result;
+}
+
+function displayPage(result){
+    document.getElementById("myH1").textContent = result;
+}
