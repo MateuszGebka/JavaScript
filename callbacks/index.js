@@ -11,6 +11,8 @@ function displayConsole(result){
     console.log(result);
 }
 
+console.log(`Hey`);
+
 
 function displayPage(result){
     document.getElementById("myH1").textContent = result;
