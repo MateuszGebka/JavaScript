@@ -18,6 +18,11 @@ let fruit = ["apple", "orange", "banana"];
 //fruit.forEach(upper);
 fruit.forEach(upperFirst);
 fruit.forEach(display);
+fruit.forEach(upperFirst);
+fruit.forEach(display);
+fruit.forEach(upperFirst);
+fruit.forEach(display);
+
 
 
 function upper(element, index, array){
