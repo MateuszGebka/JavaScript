@@ -14,7 +14,7 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color: rgb(250, 235, 205);
+    background-color: rgb(250, 235, 200);
 }
 
 
