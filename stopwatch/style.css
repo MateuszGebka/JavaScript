@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: hsla(0, 45%, 94%, 0.471);
+}
+
+#myH1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+#watch-container {
+    text-align: center;
+    border: 3px solid;
+    border-radius: 35px;
+    padding: 35px;
+    background-color: hsl(35, 72%, 92%);
+}
+
+#watch {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#buttons #start{
+    background-color: hsl(120, 78%, 63%);
+}
+
+#buttons #stop{
+    background-color: hsl(0, 88%, 61%);
+}
+
+#buttons #reset{
+    background-color: hsl(240, 83%, 75%);
+}
