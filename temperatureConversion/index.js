@@ -5,6 +5,8 @@ const result = document.getElementById("result");
 let temp;
 
 
+
+
 function convert(){
     if(toFah.checked){
         temp = Number(textBox.value);
