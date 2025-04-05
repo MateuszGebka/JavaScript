@@ -78,6 +78,7 @@ class Person{
         return this._firstName;
     }
     
+
     get lastName(){
         return this._lastName;
     }
@@ -110,6 +111,16 @@ console.log(rectangle.area);
 
 
 const person = new Person("asdam", "beksa", 12);
+
+console.log(person.firstName);
+console.log(person.lastName);
+console.log(person.age);
+console.log(person.fullName);
+
+console.log(person.firstName);
+console.log(person.lastName);
+console.log(person.age);
+console.log(person.fullName);
 
 console.log(person.firstName);
 console.log(person.lastName);
