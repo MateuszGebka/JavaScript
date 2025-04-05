@@ -17,6 +17,8 @@ class Animal{
     }
 }
 
+
+
 class Rabbit extends Animal{
     name = "rabbit";
     run(){
@@ -55,6 +57,10 @@ fish.eat();
 rab.run();
 fish.swim();
 
+rab.run();
+fish.swim();
+rab.run();
+fish.swim();
 
 const hawk = new Hawk("Adam", 12, 50);
 
