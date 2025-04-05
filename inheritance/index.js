@@ -51,6 +51,7 @@ class Hawk extends Animal{
 
 
 
+
 const rab = new Rabbit;
 const fish = new Fish;
 rab.eat();
@@ -73,3 +74,6 @@ rab.run();
 fish.swim();
 rab.run();
 fish.swim();
+
+hawk.eat();
+hawk.fly();
