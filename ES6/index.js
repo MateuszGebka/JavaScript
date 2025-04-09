@@ -9,4 +9,5 @@ const area = getArea(10);
 console.log(`Circ: ${cir.toFixed(2)}`);
 
 
+
 console.log(`Area: ${area.toFixed(2)}`);
