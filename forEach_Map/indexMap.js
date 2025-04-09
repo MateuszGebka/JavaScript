@@ -10,6 +10,7 @@ function square(element){
 
 
 
+
 const students = ["Adam", "Beata", "Czesław", "Dariusz"];
 
 const upStudents = students.map(upperCase);

@@ -17,6 +17,7 @@ let fruit = ["apple", "orange", "banana"];
 
 
 
+
 //fruit.forEach(upper);
 fruit.forEach(upperFirst);
 fruit.forEach(display);
