@@ -15,7 +15,8 @@ function rollDice(){
         images.push(`<img src="dice_images/${value}.png" alt="Dice ${value}">`);
     }
 
-        
+    
+    
     diceResult.textContent = `dices: ${values.join(', ')}`;
     diceImages.innerHTML = images.join('');
 
