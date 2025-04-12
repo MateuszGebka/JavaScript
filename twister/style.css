@@ -1,6 +1,30 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(235, 254, 255);
+}
+
+
 #game-container{
     display: flexbox;
     border: 2px solid;
     width: 50vh;
     height: 50vh;
+    justify-items: center;
+
 }
+
+#draw-btn{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    justify-content: center;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: hsl(0, 65%, 80%);
+    cursor: pointer;
+}
+
