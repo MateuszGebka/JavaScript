@@ -1,0 +1,2 @@
+
+let currentPlayer = 1;
