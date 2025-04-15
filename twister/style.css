@@ -16,6 +16,7 @@ body{
     justify-items: center;
     border-radius: 25px;
     text-align: center;
+    transition: 0.7s ease;
 }
 
 #start-btn{
@@ -84,7 +85,13 @@ body{
     font-size: 25px;
     border-radius: 15px;
 }
+#name-select-btn:hover{
+    background-color: hsl(33, 43%, 66%);
+}
 
+#name-select-btn:active{
+    background-color: hsl(33, 43%, 56%);
+}
 
 #draw-btn{
     display: flex;

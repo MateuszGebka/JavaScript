@@ -73,10 +73,9 @@ function submitName(){
 
 button.addEventListener('click', () => {
     button.classList.add('slide-out');
-});
-
-button.addEventListener('transitionend', () => {
-    button.style.display = 'none';
     gameContainer.style.width = "80vh";
     gameContainer.style.height = "80vh";
+    setTimeout(() => {
+        button.style.display = 'none';
+    }, 450);
 });
