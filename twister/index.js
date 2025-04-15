@@ -24,7 +24,19 @@ function startGame(){
     setInterval(() => {
         currentColor = Math.floor(Math.random() * 4);
         currentPart = Math.floor(Math.random() * 4);
-        input.textContent = `${names[currentPlayer]} - ${part[currentPart]} - ${colors[currentColor]}`;
+        input.textContent = `${names[currentPlayer]} \n ${part[currentPart]} \n ${colors[currentColor]}`;
+        if(currentColor == 0){
+            document.body.style.backgroundColor = "hsl(129, 65%, 80%)";
+        }
+        else if(currentColor == 1){
+            document.body.style.backgroundColor = "hsl(73, 91.00%, 82.50%)";
+        }
+        else if(currentColor == 2){
+            document.body.style.backgroundColor = "hsl(224, 64.70%, 80.00%)";
+        }
+        else if(currentColor == 3){
+            document.body.style.backgroundColor = "hsl(0, 64.70%, 80.00%)";
+        }
         if(currentPlayer == 1){
             currentPlayer = 0;
         }
@@ -65,6 +77,6 @@ button.addEventListener('click', () => {
 
 button.addEventListener('transitionend', () => {
     button.style.display = 'none';
-    gameContainer.style.width = "75vh";
-    gameContainer.style.height = "75vh";
+    gameContainer.style.width = "80vh";
+    gameContainer.style.height = "80vh";
 });
