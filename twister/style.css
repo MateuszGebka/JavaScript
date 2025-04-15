@@ -40,6 +40,26 @@ body{
     background-color: hsl(133, 78%, 53%);
 }
 
+#name-select{
+    background-color:hsl(133, 78%, 73%);
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+}
+
+#name-select-h3{
+    margin: 15px;
+}
+
+#name-select-btn{
+    margin: 15px;
+    background-color: hsl(33, 43%, 76%);
+    cursor: pointer;
+}
+
+
 #draw-btn{
     display: flex;
     width: 100%;
