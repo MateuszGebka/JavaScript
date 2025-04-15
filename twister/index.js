@@ -7,6 +7,9 @@ const titlePlayer = document.getElementById("name-select-h3");
 const nameSelection = document.getElementById("name-select");
 const startGameButton = document.getElementById("start-btn");
 const playersNames = document.getElementById("playersNames");
+const button = document.getElementById("start-btn");
+const gameContainer = document.getElementById("game-container");
+
 
 const colors = ["Green", "Yellow", "Blue", "Red"];
 const part = ["Left arm", "Right arm", "Left leg", "Right leg"];
@@ -55,3 +58,13 @@ function submitName(){
         startGameButton.style.display = "flex";
     }
 }
+
+button.addEventListener('click', () => {
+    button.classList.add('slide-out');
+});
+
+button.addEventListener('transitionend', () => {
+    button.style.display = 'none';
+    gameContainer.style.width = "75vh";
+    gameContainer.style.height = "75vh";
+});
