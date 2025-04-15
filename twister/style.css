@@ -10,8 +10,8 @@ body{
 
 #game-container{
     display: flexbox;
-    width: 50vh;
-    height: 50vh;
+    width: 65vh;
+    height: 65vh;
     justify-items: center;
     border-radius: 25px;
 }
@@ -29,6 +29,11 @@ body{
     cursor: pointer;
     border: none;
     border-radius: 25px;
+}
+
+#playersNames{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
