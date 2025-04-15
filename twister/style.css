@@ -17,7 +17,7 @@ body{
 }
 
 #start-btn{
-    display: flex;
+    display: none;
     width: 200px;
     height: 200px;
     justify-content: center;
@@ -47,6 +47,7 @@ body{
     align-items: center;
     gap: 15px;
     border-radius: 15px;
+    margin: 25px;
 }
 
 #name-select-h3{
