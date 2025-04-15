@@ -16,16 +16,19 @@ let currentPart = -1;
 
 
 function startGame(){
-    input.value = "lol";
-    order = Math.floor(Math.random() * 1);
-    while(true){
-        setTimeout(function(){
-            currentColor = Math.floor(Math.random() * 4);
-            currentPart = Math.floor(Math.random() * 4);
-            input.value =
-
-        }, 3000);
-    }
+    input.textContent = "Game starts now!";
+    currentPlayer = Math.floor(Math.random() * 2);
+    setInterval(() => {
+        currentColor = Math.floor(Math.random() * 4);
+        currentPart = Math.floor(Math.random() * 4);
+        input.textContent = `${names[currentPlayer]} - ${part[currentPart]} - ${colors[currentColor]}`;
+        if(currentPlayer == 1){
+            currentPlayer = 0;
+        }
+        else{
+            currentPlayer++;
+        }
+    }, 3000);
 }
 
 function submitName(){
@@ -50,6 +53,5 @@ function submitName(){
         console.log(names);
         nameSelection.style.display = "none";
         startGameButton.style.display = "flex";
-        playersNames.textContent = names;
     }
 }
