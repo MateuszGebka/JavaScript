@@ -18,11 +18,11 @@ body{
 
 #start-btn{
     display: flex;
-    width: 15%;
-    height: 15%;
+    width: 200px;
+    height: 200px;
     justify-content: center;
-    justify-items: center;
     text-align: center;
+    align-items: center;
     font-size: 50px;
     margin: 45px;
     background-color: hsl(133, 78%, 73%);
@@ -31,8 +31,13 @@ body{
     border-radius: 25px;
 }
 
+
 #start-btn:hover{
     background-color: hsl(133, 78%, 63%);
+}
+
+#start-btn:active{
+    background-color: hsl(133, 78%, 53%);
 }
 
 #draw-btn{
