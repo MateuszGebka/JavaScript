@@ -10,7 +10,7 @@ body{
 
 
 #game-container{
-    display: flexbox;
+    display: flex;
     width: 65vh;
     height: 65vh;
     justify-items: center;

@@ -17,11 +17,16 @@ const part = ["Left arm", "Right arm", "Left leg", "Right leg"];
 let currentColor = -1;
 let currentPart = -1;
 
+let gameInterval = null;
 
 function startGame(){
     input.textContent = "Game starts now!";
     currentPlayer = Math.floor(Math.random() * 2);
-    setInterval(() => {
+    runGame();
+}
+
+function runGame(){
+    gameInterval =  setInterval(() => {
         currentColor = Math.floor(Math.random() * 4);
         currentPart = Math.floor(Math.random() * 4);
         input.textContent = `${names[currentPlayer]} \n ${part[currentPart]} \n ${colors[currentColor]}`;
@@ -44,6 +49,11 @@ function startGame(){
             currentPlayer++;
         }
     }, 3000);
+}
+
+
+function stopGame(){
+    clearInterval()
 }
 
 function submitName(){
