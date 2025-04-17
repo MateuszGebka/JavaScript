@@ -26,6 +26,7 @@ function startGame(){
 }
 
 
+
 function runGame(){
     gameInterval =  setInterval(() => {
         currentColor = Math.floor(Math.random() * 4);
