@@ -23,8 +23,13 @@ let gameInterval = null;
 class Player{
     static playerCount = 0;
 
-    constructor(username){
-        this.username = username;
+    constructor(){
+        this.state = {
+            leftArm: "-",
+            rightArm: "-",
+            leftLeg: "-",
+            rightLeg: "-"
+        };
         Player.playerCount++;
     }
 }
