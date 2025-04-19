@@ -19,6 +19,21 @@ let currentPart = -1;
 
 let gameInterval = null;
 
+
+class Player{
+    static playerCount = 0;
+
+    constructor(username){
+        this.username = username;
+        Player.playerCount++;
+    }
+}
+
+
+
+
+
+
 function startGame(){
     input.textContent = "Game starts now!";
     currentPlayer = Math.floor(Math.random() * 2);
