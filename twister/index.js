@@ -32,6 +32,10 @@ class Player{
         };
         Player.playerCount++;
     }
+
+    setPart(part, color){
+        if (this.)
+    }
 }
 
 
