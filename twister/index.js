@@ -23,13 +23,14 @@ let gameInterval = null;
 class Player{
     static playerCount = 0;
 
-    constructor(){
+    constructor(name){
         this.state = {
             leftArm: "-",
             rightArm: "-",
             leftLeg: "-",
             rightLeg: "-"
         };
+        this.name = name;
         Player.playerCount++;
     }
 
@@ -90,6 +91,7 @@ function submitName(){
     if(names.length == 0){
         if(playerName.value === ""){
             names.push("Player 1");
+            const player1 = new Player("Player 1");
         }
         else{
             names.push(playerName.value);
