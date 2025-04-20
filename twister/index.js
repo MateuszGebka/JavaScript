@@ -34,7 +34,11 @@ class Player{
     }
 
     setPart(part, color){
-        if (this.)
+        if (this.data.hasOwnProperty(part)) {
+            this.data[part] = color;
+        } else {
+            console.warn(`Part ${part} does not exist.`);
+        }
     }
 }
 
