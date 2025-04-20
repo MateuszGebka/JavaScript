@@ -95,6 +95,7 @@ function submitName(){
         }
         else{
             names.push(playerName.value);
+            const player1 = new Player(playerName.value);
         }
         playerName.value = "";
         console.log(names);
@@ -103,9 +104,11 @@ function submitName(){
     else if(names.length == 1){
         if(playerName.value === ""){
             names.push("Player 2");
+            const player2 = new Player("Player 2");
         }
         else{
             names.push(playerName.value);
+            const player2 = new Player(playerName.value);
         }
         console.log(names);
         nameSelection.style.display = "none";
