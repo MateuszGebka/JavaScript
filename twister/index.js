@@ -94,6 +94,7 @@ function submitName(){
             const player1 = new Player("Player 1");
         }
         else{
+            
             names.push(playerName.value);
             const player1 = new Player(playerName.value);
         }
