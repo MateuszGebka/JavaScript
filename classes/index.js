@@ -10,6 +10,7 @@ class Product{
         console.log(`Price: ${this.price.toFixed(2)}`);
     }
 
+    
 
     calculateTotal(salesTax){
         return this.price + (this.price * salesTax);
