@@ -17,3 +17,15 @@ ulElements.forEach(ulElement => {
 const nextElSibling = element.nextElementSibling;
 
 nextElSibling.style.backgroundColor = "green";
+
+const parentEl = element.parentElement;
+
+parentEl.style.backgroundColor = "tomato";
+
+const children = element.children;
+
+console.log(children);
+
+Array.from(children).forEach(child =>{
+    child.style.backgroundColor = "grey";
+})
