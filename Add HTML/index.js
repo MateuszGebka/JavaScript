@@ -13,12 +13,18 @@ newH1.style.textAlign = "center";
 
 // STEP 3   APPEND ELEMENT TO DOM
 
-// document.body.append(newH1);  // na końcu
+document.body.append(newH1);  // na końcu
 
 // document.body.prepend(newH1);    // na początku
 
 // document.getElementById("box1").append(newH1);
 
-const box2 = document.getElementById("box2");
+// const box2 = document.getElementById("box2");
 
-document.body.insertBefore(newH1, box2);
+// document.body.insertBefore(newH1, box2);
+
+// const boxes = document.querySelectorAll(".box");
+
+// document.body.insertBefore(newH1, boxes[1]);
+
+document.body.removeChild(newH1);
