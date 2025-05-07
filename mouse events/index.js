@@ -1,16 +1,19 @@
 
 const myBox = document.getElementById("myBox");
+const myBtn = document.getElementById("myBtn");
 
-
-myBox.addEventListener("click", event => {
-    event.target.style.backgroundColor = "yellow";   
-    event.target.textContent = "Ouch"; 
+myBtn.addEventListener("click", event => {
+    myBox.style.backgroundColor = "yellow";   
+    myBox.textContent = "Ouch"; 
 });
 
-myBox.addEventListener("mouseover", event => {
-    event.target.style.backgroundColor = "green";
+myBtn.addEventListener("mouseover", event => {
+    myBox.style.backgroundColor = "green";
+    myBox.textContent = "Dont do it";
 })
 
-myBox.addEventListener("mouseout", event => {
-    event.target.style.backgroundColor = "lightgreen";
+myBtn.addEventListener("mouseout", event => {
+    myBox.style.backgroundColor = "lightgreen";
+    myBox.textContent = "Click Me";
 })
+
