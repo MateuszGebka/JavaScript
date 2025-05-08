@@ -30,3 +30,10 @@ document.body.appendChild(newButton);
 buttons = document.querySelectorAll(".buttons");
 console.log(buttons);
 
+buttons.forEach(button => {
+    button.addEventListener("click", event => {
+        event.target.remove();
+        buttons = document.querySelectorAll(".buttons");
+        console.log(buttons);
+    });
+});
