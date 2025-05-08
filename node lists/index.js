@@ -20,3 +20,13 @@ buttons.forEach(button => {
         }
     });
 });
+
+
+const newButton = document.createElement("button");
+newButton.textContent = "Button 5";
+newButton.classList = "buttons";
+document.body.appendChild(newButton);
+
+buttons = document.querySelectorAll(".buttons");
+console.log(buttons);
+
