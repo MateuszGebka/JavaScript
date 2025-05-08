@@ -12,3 +12,7 @@
     box-shadow: 0 0 10px hsl(0, 4%, 22%);
     font-weight: bold;
 }
+.disabled{
+    background-color: hsl(0, 0%, 60%);
+    color: hsl(0, 0%, 61%);
+}
