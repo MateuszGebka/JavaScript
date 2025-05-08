@@ -1,0 +1,14 @@
+#myBtn{
+    font-size: 4rem;
+    border: none;
+    border-radius: 15px;
+    margin: 15px;
+}
+.enabled{
+    background-color: hsl(240, 51%, 65%);
+    color: white;
+}
+.hover{
+    box-shadow: 0 0 10px hsl(0, 4%, 22%);
+    font-weight: bold;
+}
