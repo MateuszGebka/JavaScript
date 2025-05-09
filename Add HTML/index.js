@@ -27,4 +27,5 @@ document.body.append(newH1);  // na końcu
 
 // document.body.insertBefore(newH1, boxes[1]);
 
+
 document.body.removeChild(newH1);
