@@ -14,8 +14,6 @@ newH1.style.textAlign = "center";
 
 // STEP 3   APPEND ELEMENT TO DOM
 
-
-
 document.body.append(newH1);  // na końcu
 
 // document.body.prepend(newH1);    // na początku
