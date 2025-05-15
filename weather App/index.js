@@ -40,6 +40,8 @@ async function getWeatherData(city) {
 }
 
 function displayWeatherInfo(data){
+    
+    const {name: city, main: {temp, humidity}, weather: [{description, id}]} = data;
 
 }
 
