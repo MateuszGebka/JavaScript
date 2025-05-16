@@ -14,6 +14,7 @@ ulElements.forEach(ulElement => {
 })
 
 
+
 const nextElSibling = element.nextElementSibling;
 
 nextElSibling.style.backgroundColor = "green";

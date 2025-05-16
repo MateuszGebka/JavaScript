@@ -5,5 +5,6 @@ const downloadFile = () => {
     link.href = URL.createObjectURL(file);
     link.download = "sample.txt";
     link.click();
+    
     URL.revokeObjectURL(link.href);
 };
