@@ -11,6 +11,7 @@ newH1.id = "myH1";
 newH1.style.color = "tomato";
 newH1.style.textAlign = "center";
 
+
 // STEP 3   APPEND ELEMENT TO DOM
 
 document.body.append(newH1);  // na końcu

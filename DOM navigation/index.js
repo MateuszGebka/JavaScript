@@ -2,6 +2,8 @@ const element = document.getElementById("ul-1");
 
 console.log(element.firstElementChild.textContent);
 
+
+
 const firstElChild = element.firstElementChild;
 
 firstElChild.style.backgroundColor = "grey";
@@ -12,6 +14,8 @@ ulElements.forEach(ulElement => {
     const firstChild = ulElement.firstElementChild;
     firstChild.style.backgroundColor = "yellow";
 })
+
+
 
 
 const nextElSibling = element.nextElementSibling;
