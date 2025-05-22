@@ -10,3 +10,12 @@ function factorial(number){
 }
 
 console.log(factorial(0));
+
+function recFactorial(number){
+    if(number == 1){
+        return number;
+    }
+    return recFactorial(number-1) * number;
+}
+
+console.log(recFactorial(6));
