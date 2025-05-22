@@ -12,8 +12,8 @@ function factorial(number){
 console.log(factorial(0));
 
 function recFactorial(number){
-    if(number == 1){
-        return number;
+    if(number === 0){
+        return 1;
     }
     return recFactorial(number-1) * number;
 }
