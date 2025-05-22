@@ -9,7 +9,7 @@ function fibb(number){
         return 1;
     }
     else{
-        for(let i = 2; i < number; i++){
+        for(let i = 2; i <= number; i++){
             ans.push(ans[ans.length - 1] + ans[ans.length - 2]);
         }
         return ans[ans.length - 1];
@@ -17,4 +17,14 @@ function fibb(number){
 }
 
 
-console.log(fibb(32));
+console.log(fibb(34));
+
+
+function fibonacci(number){
+    if(number < 2){
+        return number;
+    }
+    return fibonacci(number - 1) + fibonacci(number - 2);
+}
+
+console.log(fibonacci(34));
