@@ -19,3 +19,4 @@ function recFactorial(number){
 }
 
 console.log(recFactorial(6));
+
