@@ -55,6 +55,7 @@ console.log(array);
 
 // QUICK SORT //
 
+/*
 let array = [4, -1, -7, 12, 1, 7];
 
 function quickSort(array){
@@ -73,9 +74,15 @@ function quickSort(array){
             right.push(array[i]); 
         }
     }
-
-    return [...quickSort(left), pivot,...quickSort(right)];
+    console.log(`Left: ${left}`);
+    console.log(`Right: ${right}`);
+    console.log(`...left, pivot, ...right: ${[...left, pivot, ...right]}`);
+    return [...quickSort(left), pivot, ...quickSort(right)];
 }
 
 console.log(array);
 console.log(quickSort(array));
+*/
+
+// MERGE SORT //
+
