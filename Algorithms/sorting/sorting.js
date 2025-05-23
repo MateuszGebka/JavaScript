@@ -1,5 +1,6 @@
 // BUBBLE SORT //
 
+/*
 let array = [4, -1, -7, 12, 1, 7];
 
 function bubbleSort(array){
@@ -16,4 +17,34 @@ function bubbleSort(array){
 }
 console.log(array);
 bubbleSort(array);
+console.log(array);
+*/
+
+// INSERTION SORT //
+
+// [-1, 4, -7, 12, 1, 7]
+// [-7, -1, 4, 12, 1, 7]
+// [-7, -1, 4, 12, 1, 7]
+// [-7, -1, 1, 4, 12, 7]
+// [-7, -1, 1, 4, 7, 12]
+
+let array = [4, -1, -7, 12, 1, 7];
+
+function insertionSort(array){
+    if(array.length < 2){
+        return array;
+    }
+    for(let i = 1; i < array.length; i++){
+        let NTI = array[i];
+        let j = i - 1;
+        while(j >= 0 && array[j] > NTI){
+            array[j+1] = array[j];
+            j -= 1;
+        }
+        array[j+1] = NTI;
+    }
+}
+
+console.log(array);
+insertionSort(array);
 console.log(array);
