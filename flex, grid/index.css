@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    border: 2px solid black;
+}
+
+.container div{
+    background: lightblue;
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid black;
+}
