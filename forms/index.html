@@ -31,8 +31,48 @@
         <p>Hobbies:</p>
         <label><input type="checkbox" name="hobby" value="gaming"> Gaming</label>
         <label><input type="checkbox" name="hobby" value="fishing"> Fishing</label>
-
     </form>
+
+    <br>
+    <br>
+
+    <form>
+        <label for="country">Choose your country:</label>
+        <select id="country" name="country">
+            <option value="pl">Poland</option>
+            
+            <option value="us">USA</option>
+            
+            <option value="de">Germany</option>
+            
+            <option value="ua">Ukraine</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+
+    <br>
+    <br>
+
+    <form>
+        <label for="message">Your message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="30" aria-placeholder="Type your message"></textarea><br>
+        <input type="submit" value="Send">
+    </form>
+
+    <br>
+    <br>
+
+    <form>
+        <label for="username">Username:
+            <input type="text" name="username" required>
+        </label><br>
+        <label for="phone">Phone (format: 123-456-789):
+            <input type="tel" name="phone" pattern="\d{3}-\d{3}-d{3}" required>
+        </label><br>
+        <input type="submit" value="Validate">
+    </form>
+
+
     <script src="index.js"></script>
 </body>
 </html>
