@@ -23,3 +23,17 @@
     background: green;
 }
 
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.container3 div {
+    flex: 1 0 25%;
+    background: salmon;
+    margin: 5px;
+    text-align: center;
+    border: 2px solid black;
+}
