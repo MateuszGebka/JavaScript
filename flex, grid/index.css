@@ -1,11 +1,25 @@
-.container{
+.container1{
     display: flex;
     border: 2px solid black;
 }
 
-.container div{
+.container1 div{
     background: lightblue;
     padding: 10px;
     margin: 15px;
     border: 1px solid black;
 }
+
+.container2{
+    height: 200px;
+    background: #eee;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container2 div{
+    border: 2px solid black;
+    padding: 20px;
+    background: green;
+}
+
