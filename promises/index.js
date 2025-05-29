@@ -4,7 +4,7 @@ function walkDog(){
     return new Promise((resolve, reject) => {
         setTimeout(() => {
 
-            const dogWalked = false;
+            const dogWalked = true;
 
             if(dogWalked){
                 resolve("You walk the dog");
@@ -20,7 +20,7 @@ function cleanKitchen(){
     return new Promise((resolve, reject) => {
         setTimeout(() => {
 
-            const kitchenCleaned = true;
+            const kitchenCleaned = false;
             if(kitchenCleaned){
                 resolve("You clean the kitchen");
             }
@@ -46,11 +46,12 @@ function throwThrash(){
     })
 }
 
+/*
 walkDog().then(value => {console.log(value); return cleanKitchen()})
          .then(value => {console.log(value); return throwThrash()})
          .then(value => {console.log(value); console.log("You finished all the chores!")})
          .catch(error => console.error(error));
-
+*/
 
 
 async function doChores(){
