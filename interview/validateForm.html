@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="validateForm.css">
+</head>
+<body>
+
+    <h1>Contact Us</h1>
+    <form id="contactForm" novalidate>
+        <div>
+            <label for="name">Name</label>
+            <input id="name" type="text" required>
+            <div id="nameError" class="error"></div>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" required>
+            <div id="emailError" class="error"></div>
+        </div>
+
+        <div>
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" required></textarea>
+            <div id="messageError" class="error"></div>
+        </div>
+
+        <button id="submitBtn" type="submit" disabled>Submit</button>
+
+        <div id="formStatus" class="status"></div>
+    </form>
+
+
+
+
+
+    <script src="validateForm.js"></script>
+</body>
+</html>
